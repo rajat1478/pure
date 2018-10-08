@@ -4,6 +4,7 @@ var pure = require('../index.js');
 // api
 tap.ok(pure.getFile);
 tap.ok(pure.getFilePath);
+// path
 
 // assertions
 tap.match(pure.getFile('pure-min.css'), /pure\-button/, 'should load the file');
